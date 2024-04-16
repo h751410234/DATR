@@ -1,4 +1,4 @@
-# Remote Sensing Teacher: Cross-Domain Detection Transformer with Learnable Frequency-Enhanced Feature Alignment in Remote Sensing Imagery
+# DATR: Unsupervised Domain Adaptive Detection Transformer with Prototypical Adaptation
 
 By Jianhong Han, Liang Chen and Yupei Wang.
 
