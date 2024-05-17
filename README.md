@@ -1,8 +1,8 @@
 # DATR: Unsupervised Domain Adaptive Detection Transformer with Dataset-Level Adaptation and Prototypical Alignment
 
-By Jianhong Han, Liang Chen and Yupei Wang.
+By Liang Chen, Jianhong Han and Yupei Wang.
 
-This repository contains the implementation accompanying our paper DATR: Unsupervised Domain Adaptive Detection Transformer with Prototypical Adaptation.
+This repository contains the implementation accompanying our paper DATR: Unsupervised Domain Adaptive Detection Transformer with Dataset-Level Adaptation and Prototypical Alignment.
 
 <!--
 #--暂时注释
