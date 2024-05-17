@@ -111,10 +111,11 @@ You can learn the details of DATR through the paper, and please cite our papers 
 
 Task | mAP50  | Config | Model 
 ------------| ------------- | -------------| -------------
-**Cityscapes to Foggy Cityscapes**  | 52.8% | [cfg](config/DA/Cityscapes2FoggyCityscapes) | [model](https://pan.baidu.com/s/1-jg-3vTAo06t7yNM3NU8WQ?pwd=w3x4)
-**Sim10k to Cityscapes** | 66.3% | [cfg](config/DA/Sim10k2Cityscapes) | [model](https://pan.baidu.com/s/15pdOhVHleLQUMAXiddx9zQ?pwd=gu2z)
-**Cityscapes to BDD100K-daytime** | 41.9% | [cfg](config/DA/Cityscapes2BDD100k) | [model](https://pan.baidu.com/s/11Z9YGkP0E2mTyT8itKzpfQ?pwd=x4si)
+**Cityscapes to Foggy Cityscapes**  | 52.8% | [cfg](config/DA/Cityscapes2FoggyCityscapes) | [model](https://pan.baidu.com/s/1ZGvYjwXUMoBqtcGHfTnNww?pwd=mxxg)
+**Sim10k to Cityscapes** | 66.3% | [cfg](config/DA/Sim10k2Cityscapes) | [model](https://pan.baidu.com/s/17ZS4IsFxAeyfVessQnHvRA?pwd=mw9u)
+**Cityscapes to BDD100K-daytime** | 41.9% | [cfg](config/DA/Cityscapes2BDD100k) | [model](https://pan.baidu.com/s/17UElPN8gdqd7paE0B149Vg?pwd=dwes)
 
 ## Reference
 https://github.com/IDEA-Research/DINO
+
 https://github.com/h751410234/RemoteSensingTeacher
