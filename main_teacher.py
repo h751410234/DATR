@@ -231,7 +231,7 @@ def main(args):
                 args.resume, map_location='cpu', check_hash=True)
         else:
             checkpoint = torch.load(args.resume, map_location='cpu')
-        model_without_ddp.load_state_dict(checkpoint['model'])
+        model_without_ddp.load_state_dict(checkpoint['ema_model'])
         if args.use_ema:
             if 'ema_model' in checkpoint:
                 ema_m.module.load_state_dict(utils.clean_state_dict(checkpoint['ema_model']))
@@ -305,8 +305,10 @@ def main(args):
     ema_teacher_eval = []
     best_ema_model_eval = []
     #-----------
+
+
     print("Start training")
-    args.start_epoch = 0    #----修改初始位置用于DEBUG
+    args.start_epoch = 36    #----修改初始位置用于DEBUG
     start_time = time.time()
     best_map_holder = BestMetricHolder(use_ema=args.use_ema)
     for epoch in range(args.start_epoch, args.epochs):

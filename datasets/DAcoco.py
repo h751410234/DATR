@@ -673,17 +673,17 @@ def build_city_DA(image_set, args,strong_aug):
 
     #---源域
     PATHS_Source = {
-        "train": ("/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/cityscapes/leftImg8bit/train",
-                  "/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/CocoFormatAnnos/cityscapes_train_cocostyle.json"),
+        "train": ("",
+                  ""),
         "val": ("",
                 ""),
     }
     #----目标域
     PATHS_Target = {
-        "train": ("/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/foggy_cityscapes/leftImg8bit_foggy/train",
-                  "/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/CocoFormatAnnos/foggy_cityscapes_train_cocostyle.json"),
-        "val": ("/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/foggy_cityscapes/leftImg8bit_foggy/val",
-                "/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/CocoFormatAnnos/foggy_cityscapes_val_cocostyle.json"),
+        "train": ("",
+                  ""),
+        "val": ("",
+                ""),
     }
 
     # add some hooks to datasets
@@ -740,17 +740,17 @@ def build_sim2city_DA(image_set, args,strong_aug):
 
     #---源域
     PATHS_Source = {
-        "train": ("/data/jianhonghan/自然场景域适应数据集/sim10k/VOC2012/JPEGImages",
-                  "/data/jianhonghan/自然场景域适应数据集/sim10k/VOC2012/sim10k_train_cocostyle.json"),
+        "train": ("",
+                  ""),
         "val": ("",
                 ""),
     }
     #----目标域
     PATHS_Target = {
-        "train": ("/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/cityscapes/leftImg8bit/train",
-                  "/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/annotations/cityscapes_train_caronly_cocostyle.json"),
-        "val": ("/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/cityscapes/leftImg8bit/val",
-                "/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/annotations/cityscapes_val_caronly_cocostyle.json"),
+        "train": ("",
+                  ""),
+        "val": ("",
+                ""),
     }
 
     # add some hooks to datasets
@@ -807,17 +807,17 @@ def build_city2BDD_DA(image_set, args,strong_aug):
 
     #---源域
     PATHS_Source = {
-        "train": ("/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/cityscapes/leftImg8bit/train",
-                  "/data/jianhonghan/自然场景域适应数据集/cityscapes_all/cityscapes_all/annotations/cityscapes_train_cocostyle.json"),
-        "val": ("",
-                ""),
+        "train": ("",  #train image dir
+                  ""), #train coco format json file
+        "val": ("",    #val image dir
+                ""),   #val coco format json file
     }
     #----目标域
     PATHS_Target = {
-        "train": ("/data/jianhonghan/自然场景域适应数据集/BDD100K/bdd100k_images/bdd100k/images/100k/train",
-                  "/data/jianhonghan/自然场景域适应数据集/BDD100K/bdd100k_daytime_train_cocostyle.json"),
-        "val": ("/data/jianhonghan/自然场景域适应数据集/BDD100K/bdd100k_images/bdd100k/images/100k/val",
-                "/data/jianhonghan/自然场景域适应数据集/BDD100K/bdd100k_daytime_val_cocostyle.json"),
+        "train": ("",  #train image dir
+                  ""), #train coco format json file
+        "val": ("",    #val image dir
+                ""),   #val coco format json file
     }
 
     # add some hooks to datasets
