@@ -4,19 +4,17 @@ By Liang Chen, Jianhong Han and Yupei Wang.
 
 This repository contains the implementation accompanying our paper DATR: Unsupervised Domain Adaptive Detection Transformer with Dataset-Level Adaptation and Prototypical Alignment.
 
-<!--
-#--暂时注释
 If you find it helpful for your research, please consider citing:
 
 ```
-@inproceedings{XXX,
-  title     = {Remote Sensing Teacher: Cross-Domain Detection Transformer with Learnable Frequency-Enhanced Feature Alignment in Remote Sensing Imagery},
-  author    = {Jianhong Han, Yupei Wang, Liang Chen},
-  booktitle = {XXX},
-  year      = {2023},
+@article{han2024datr,
+  title={DATR: Unsupervised Domain Adaptive Detection Transformer with Dataset-Level Adaptation and Prototypical Alignment},
+  author={Han, Jianhong and Chen, Liang and Wang, Yupei},
+  journal={arXiv preprint arXiv:2405.11765},
+  year={2024}
 }
 ```
--->
+
 
 ![](/figs/Figure1.png)
 
