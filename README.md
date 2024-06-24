@@ -1,6 +1,6 @@
 # DATR: Unsupervised Domain Adaptive Detection Transformer with Dataset-Level Adaptation and Prototypical Alignment
 
-By Liang Chen, Jianhong Han and Yupei Wang.
+By Jianhong Han, Liang Chen and Yupei Wang.
 
 This repository contains the implementation accompanying our paper DATR: Unsupervised Domain Adaptive Detection Transformer with Dataset-Level Adaptation and Prototypical Alignment.
 
@@ -27,7 +27,7 @@ Please refer to the instructions [here](requirements.txt). We leave our system i
 * OS: Ubuntu 16.04
 * Python: 3.10.9
 * CUDA: 11.8
-* PyTorch: 2.0.1
+* PyTorch: 2.0.1 (The lower versions of Torch can cause some bugs.)
 * torchvision: 0.15.2
 
 ## Dataset Preparation
