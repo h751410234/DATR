@@ -4,7 +4,7 @@ import torchvision
 
 from .coco import build as build_coco
 #---遥感
-from .DAcoco import build_xView2DOTA_DA,build_city_DA,build_sim2city_DA,build_voc2clipart1k_DA,build_city2BDD_DA,build_voc2watercolor_DA
+from .DAcoco import build_city_DA,build_sim2city_DA,build_city2BDD_DA
 
 
 
